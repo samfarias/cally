@@ -1,0 +1,564 @@
+Texts:
+locale: "en"
+description: "20134613\nLoan Number\nToday\ndate\'s\n2-28-2019\nCustomer ID → 809475127\n572437-72, 75,000.00\nAmount\nAccount Number → 193506555\nName\nROMANO UNIT 100 LLC"
+bounding_poly {
+  vertices {
+    x: 96
+    y: 155
+  }
+  vertices {
+    x: 1828
+    y: 155
+  }
+  vertices {
+    x: 1828
+    y: 1209
+  }
+  vertices {
+    x: 96
+    y: 1209
+  }
+}
+
+
+"20134613
+Loan Number
+Today
+date's
+2-28-2019
+Customer ID → 809475127
+572437-72, 75,000.00
+Amount
+Account Number → 193506555
+Name
+ROMANO UNIT 100 LLC"
+bounds: (96,155),(1828,155),(1828,1209),(96,1209)
+description: "20134613"
+bounding_poly {
+  vertices {
+    x: 1012
+    y: 194
+  }
+  vertices {
+    x: 1382
+    y: 185
+  }
+  vertices {
+    x: 1383
+    y: 240
+  }
+  vertices {
+    x: 1013
+    y: 249
+  }
+}
+
+
+"20134613"
+bounds: (1012,194),(1382,185),(1383,240),(1013,249)
+description: "Loan"
+bounding_poly {
+  vertices {
+    x: 193
+    y: 208
+  }
+  vertices {
+    x: 394
+    y: 198
+  }
+  vertices {
+    x: 399
+    y: 297
+  }
+  vertices {
+    x: 198
+    y: 307
+  }
+}
+
+
+"Loan"
+bounds: (193,208),(394,198),(399,297),(198,307)
+description: "Number"
+bounding_poly {
+  vertices {
+    x: 449
+    y: 196
+  }
+  vertices {
+    x: 757
+    y: 181
+  }
+  vertices {
+    x: 761
+    y: 279
+  }
+  vertices {
+    x: 454
+    y: 294
+  }
+}
+
+
+"Number"
+bounds: (449,196),(757,181),(761,279),(454,294)
+description: "Today"
+bounding_poly {
+  vertices {
+    x: 187
+    y: 395
+  }
+  vertices {
+    x: 413
+    y: 386
+  }
+  vertices {
+    x: 418
+    y: 520
+  }
+  vertices {
+    x: 193
+    y: 529
+  }
+}
+
+
+"Today"
+bounds: (187,395),(413,386),(418,520),(193,529)
+description: "date\'s"
+bounding_poly {
+  vertices {
+    x: 457
+    y: 389
+  }
+  vertices {
+    x: 644
+    y: 371
+  }
+  vertices {
+    x: 650
+    y: 433
+  }
+  vertices {
+    x: 463
+    y: 451
+  }
+}
+
+
+"date's"
+bounds: (457,389),(644,371),(650,433),(463,451)
+description: "2-28-2019"
+bounding_poly {
+  vertices {
+    x: 905
+    y: 355
+  }
+  vertices {
+    x: 1355
+    y: 367
+  }
+  vertices {
+    x: 1352
+    y: 454
+  }
+  vertices {
+    x: 903
+    y: 442
+  }
+}
+
+
+"2-28-2019"
+bounds: (905,355),(1355,367),(1352,454),(903,442)
+description: "Customer"
+bounding_poly {
+  vertices {
+    x: 119
+    y: 563
+  }
+  vertices {
+    x: 426
+    y: 551
+  }
+  vertices {
+    x: 430
+    y: 651
+  }
+  vertices {
+    x: 123
+    y: 663
+  }
+}
+
+
+"Customer"
+bounds: (119,563),(426,551),(430,651),(123,663)
+description: "ID"
+bounding_poly {
+  vertices {
+    x: 466
+    y: 550
+  }
+  vertices {
+    x: 556
+    y: 546
+  }
+  vertices {
+    x: 560
+    y: 645
+  }
+  vertices {
+    x: 470
+    y: 649
+  }
+}
+
+
+"ID"
+bounds: (466,550),(556,546),(560,645),(470,649)
+description: "→"
+bounding_poly {
+  vertices {
+    x: 596
+    y: 544
+  }
+  vertices {
+    x: 682
+    y: 541
+  }
+  vertices {
+    x: 686
+    y: 640
+  }
+  vertices {
+    x: 600
+    y: 643
+  }
+}
+
+
+"→"
+bounds: (596,544),(682,541),(686,640),(600,643)
+description: "809475127"
+bounding_poly {
+  vertices {
+    x: 769
+    y: 537
+  }
+  vertices {
+    x: 1425
+    y: 511
+  }
+  vertices {
+    x: 1429
+    y: 611
+  }
+  vertices {
+    x: 773
+    y: 637
+  }
+}
+
+
+"809475127"
+bounds: (769,537),(1425,511),(1429,611),(773,637)
+description: "572437-72"
+bounding_poly {
+  vertices {
+    x: 649
+    y: 704
+  }
+  vertices {
+    x: 1166
+    y: 670
+  }
+  vertices {
+    x: 1171
+    y: 751
+  }
+  vertices {
+    x: 654
+    y: 786
+  }
+}
+
+
+"572437-72"
+bounds: (649,704),(1166,670),(1171,751),(654,786)
+description: ","
+bounding_poly {
+  vertices {
+    x: 1229
+    y: 666
+  }
+  vertices {
+    x: 1263
+    y: 664
+  }
+  vertices {
+    x: 1268
+    y: 745
+  }
+  vertices {
+    x: 1234
+    y: 747
+  }
+}
+
+
+","
+bounds: (1229,666),(1263,664),(1268,745),(1234,747)
+description: "75,000.00"
+bounding_poly {
+  vertices {
+    x: 1343
+    y: 658
+  }
+  vertices {
+    x: 1822
+    y: 626
+  }
+  vertices {
+    x: 1827
+    y: 708
+  }
+  vertices {
+    x: 1348
+    y: 740
+  }
+}
+
+
+"75,000.00"
+bounds: (1343,658),(1822,626),(1827,708),(1348,740)
+description: "Amount"
+bounding_poly {
+  vertices {
+    x: 112
+    y: 767
+  }
+  vertices {
+    x: 406
+    y: 713
+  }
+  vertices {
+    x: 426
+    y: 820
+  }
+  vertices {
+    x: 132
+    y: 874
+  }
+}
+
+
+"Amount"
+bounds: (112,767),(406,713),(426,820),(132,874)
+description: "Account"
+bounding_poly {
+  vertices {
+    x: 120
+    y: 933
+  }
+  vertices {
+    x: 400
+    y: 907
+  }
+  vertices {
+    x: 409
+    y: 1002
+  }
+  vertices {
+    x: 129
+    y: 1028
+  }
+}
+
+
+"Account"
+bounds: (120,933),(400,907),(409,1002),(129,1028)
+description: "Number"
+bounding_poly {
+  vertices {
+    x: 452
+    y: 902
+  }
+  vertices {
+    x: 725
+    y: 877
+  }
+  vertices {
+    x: 734
+    y: 971
+  }
+  vertices {
+    x: 461
+    y: 997
+  }
+}
+
+
+"Number"
+bounds: (452,902),(725,877),(734,971),(461,997)
+description: "→"
+bounding_poly {
+  vertices {
+    x: 746
+    y: 875
+  }
+  vertices {
+    x: 821
+    y: 868
+  }
+  vertices {
+    x: 829
+    y: 962
+  }
+  vertices {
+    x: 755
+    y: 969
+  }
+}
+
+
+"→"
+bounds: (746,875),(821,868),(829,962),(755,969)
+description: "193506555"
+bounding_poly {
+  vertices {
+    x: 878
+    y: 863
+  }
+  vertices {
+    x: 1443
+    y: 810
+  }
+  vertices {
+    x: 1451
+    y: 904
+  }
+  vertices {
+    x: 887
+    y: 957
+  }
+}
+
+
+"193506555"
+bounds: (878,863),(1443,810),(1451,904),(887,957)
+description: "Name"
+bounding_poly {
+  vertices {
+    x: 173
+    y: 1116
+  }
+  vertices {
+    x: 403
+    y: 1099
+  }
+  vertices {
+    x: 409
+    y: 1179
+  }
+  vertices {
+    x: 179
+    y: 1196
+  }
+}
+
+
+"Name"
+bounds: (173,1116),(403,1099),(409,1179),(179,1196)
+description: "ROMANO"
+bounding_poly {
+  vertices {
+    x: 592
+    y: 1065
+  }
+  vertices {
+    x: 1036
+    y: 1016
+  }
+  vertices {
+    x: 1047
+    y: 1113
+  }
+  vertices {
+    x: 603
+    y: 1162
+  }
+}
+
+
+"ROMANO"
+bounds: (592,1065),(1036,1016),(1047,1113),(603,1162)
+description: "UNIT"
+bounding_poly {
+  vertices {
+    x: 1085
+    y: 1011
+  }
+  vertices {
+    x: 1303
+    y: 987
+  }
+  vertices {
+    x: 1313
+    y: 1083
+  }
+  vertices {
+    x: 1096
+    y: 1107
+  }
+}
+
+
+"UNIT"
+bounds: (1085,1011),(1303,987),(1313,1083),(1096,1107)
+description: "100"
+bounding_poly {
+  vertices {
+    x: 1351
+    y: 981
+  }
+  vertices {
+    x: 1475
+    y: 967
+  }
+  vertices {
+    x: 1486
+    y: 1065
+  }
+  vertices {
+    x: 1362
+    y: 1078
+  }
+}
+
+
+"100"
+bounds: (1351,981),(1475,967),(1486,1065),(1362,1078)
+description: "LLC"
+bounding_poly {
+  vertices {
+    x: 1538
+    y: 961
+  }
+  vertices {
+    x: 1708
+    y: 942
+  }
+  vertices {
+    x: 1719
+    y: 1039
+  }
+  vertices {
+    x: 1549
+    y: 1057
+  }
+}
+
+
+"LLC"
+bounds: (1538,961),(1708,942),(1719,1039),(1549,1057)
