@@ -9,7 +9,7 @@ from google.cloud import vision
 os.environ['GOOGLE_APPLICATION_CREDENTIALS']=r'cloudvisionkey.json'
 
 #name of image path to send
-file_name = os.path.abspath('/Users/sam/Documents/cally/Test-OCR-Handwritten.jpg')
+file_name = os.path.abspath('/Users/sam/Documents/cally/mockschedule.jpeg')
 
 #image = types.Image(content=content)
 def detect_text(file_name):
@@ -37,14 +37,6 @@ def detect_text(file_name):
 
         print('bounds: {}'.format(','.join(vertices)))
 
-        # out_file=open("file.json", "a")
-        # json.dump((text), out_file)
-
-
-    # out_file=open("file.json", "w")
-    # json.dump((text.description)+("hi"), out_file)
-    #
-
     if response.error.message:
         raise Exception(
             '{}\nFor more info on error messages, check: '
@@ -54,21 +46,6 @@ def detect_text(file_name):
 
 #run our program
 detect_text(file_name)
-
-
-# Parse the JSON response
-# response_json = json.loads(api_response_text)
-# relevant_data = response_json['data']
-
-
-#         #print incoming json description     ##########O--O############
-#         writeFile =open('file_name.json', 'w')
-#         writeFile.write(texts)
-
-# # Create a new JSON file and write the relevant data to it
-# with open('output.json', 'w') as outfile:
-#     json.dump(relevant_data, outfile)
-# writeFile.close(output.json)
 
 
 
