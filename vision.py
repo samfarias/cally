@@ -1,23 +1,19 @@
 import io
 import os
-import json
-
-#Imports the Google Cloud Client Library
+from dotenv import load_dotenv
 from google.cloud import vision
 
-#set the os GCP APP variable
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']=r'cloudvisionkey.json'
+load_dotenv()
 
-#name of image path to send
-file_name = os.path.abspath('/Users/sam/Documents/cally/mockschedule.jpeg')
+#image path to send
+file_name = os.path.abspath('WorkDates.jpg')
 
-#image = types.Image(content=content)
 def detect_text(file_name):
     """Detects text in the file."""
     
     #instantiates a new client
     client = vision.ImageAnnotatorClient()
-    #ah yeah. this loads image onto memory
+    #loads image onto memory
     with io.open(file_name, 'rb') as image_file:
         content = image_file.read()
     image = vision.Image(content=content)
