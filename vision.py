@@ -44,4 +44,3 @@ def detect_text(file_name):
 detect_text(file_name)
 
 
-
