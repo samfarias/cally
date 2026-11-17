@@ -1,3 +1,4 @@
+# vision.py
 import io
 import os
 from dotenv import load_dotenv
@@ -5,33 +6,15 @@ from google.cloud import vision
 
 load_dotenv()
 
-#image path to send
-file_name = os.path.abspath('WorkDates.jpg')
 
-def detect_text(file_name):
-    """Detects text in the file."""
-    
-    #instantiates a new client
+def extract_text(file_path):
+    """Runs OCR on an image and returns the full detected text block."""
     client = vision.ImageAnnotatorClient()
-    #loads image onto memory
-    with io.open(file_name, 'rb') as image_file:
+    with io.open(file_path, 'rb') as image_file:
         content = image_file.read()
     image = vision.Image(content=content)
 
     response = client.text_detection(image=image)
-    texts = response.text_annotations
-    print('Texts:')
- 
-
-    for text in texts:
-        print(text)
-        print('\n"{}"'.format(text.description))
-        
-
-        vertices = (['({},{})'.format(vertex.x, vertex.y)
-                    for vertex in text.bounding_poly.vertices])
-
-        print('bounds: {}'.format(','.join(vertices)))
 
     if response.error.message:
         raise Exception(
@@ -39,8 +22,10 @@ def detect_text(file_name):
             'https://cloud.google.com/apis/design/errors'.format(
                 response.error.message))
 
+    texts = response.text_annotations
+    return texts[0].description if texts else ""
+    # texts[0] for full block; texts[1:] for single words w box bounds
 
-#run our program
-detect_text(file_name)
 
-
+if __name__ == '__main__':
+    print(extract_text(os.path.abspath('WorkDates.jpg')))
